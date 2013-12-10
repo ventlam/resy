@@ -1,4 +1,4 @@
-#train is a dict consist of {user : [items]} ?
+http://restapi.amap.com/v3/place/text?types=%E9%A4%90%E9%A5%AE%E6%9C%8D%E5%8A%A1&city=010&offset=100&page=4&extensions=all&output=json&key=c84af8341b1cc45c801d6765cda96087#train is a dict consist of {user : [items]} ?
 def userCF(train):
     #build inverse table for item_users
     train = {'gallahad': ['the pure','a'], 'robin': ['the brave']}
